@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  font-family: "Roboto";
+  margin-right: 20px;
 }
 
 .App-logo {
@@ -36,3 +37,708 @@
     transform: rotate(360deg);
   }
 }
+
+.home-text{
+  margin-top: 30px;
+  margin-bottom: 40px;
+
+}
+
+.card{
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+
+
+ .img-text {
+   padding-top: 60px;
+   text-align: center;
+   margin-left: 20px;
+ }
+ .img-text2 {
+   max-width: 175px;
+   flex-wrap: wrap;
+  padding-top: 80px;
+  text-align: center;
+  
+}
+ .video-img{
+ 
+  background-color: #cccccc; /* Used if the image is unavailable */
+  text-align: center;
+  height: 200px;
+  
+
+  /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+ }
+ .reward-img {
+  background-image: url("./assets/img/reward.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100px;
+  width: 150px;
+
+  /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+ }
+ @media only screen and (max-width: 600px) {
+  .home-img {
+    background-image: url("./assets/img/note.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 250px;
+    width: 300px;
+    margin-top: 40px;
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+   
+  }
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+@media only screen and (min-width: 1200px) {
+  .home-img {
+    background-image: url("./assets/img/note.jpg");
+    margin-top: 200px;
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 230px;
+    width: 200px;
+    margin-top: 20px;
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+   
+  }
+}
+@media only screen and (max-width: 920px) {
+  .home-img {
+    background-image: url("./assets/img/note.jpg");
+    
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 200px;
+    width: 250px;
+   
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+   
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .home-img2 {
+    background-image: url("./assets/img/note.jpg");
+    
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 200px;
+    width: 180px;
+   
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+   
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home-img2 {
+    background-image: url("./assets/img/note.jpg");
+    
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 140px;
+    width: 130px;
+   
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+   
+  }
+  .img-text2 {
+  
+    flex-wrap: wrap;
+   padding-top: 50px;
+   text-align: center;
+   
+   
+ }
+ .idea {
+   margin-left:30px;
+   margin-right: 20px;
+ }
+}
+@media only screen and (min-width: 1200px) {
+  .home {
+    margin-top: 10px;
+    
+   
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .myid {
+    padding-left: 40px;
+    text-align: center;
+   
+  }
+ 
+}
+/*<img src={img} style={{height:'240px',width:'95%'}}/>*/
+.start-img{
+  background-image: url("./assets/img/black.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 12px 12px 12px 12px;
+  height:240px;
+  width: 90%;
+}
+@media only screen and (min-width: 1200px) {
+.start-text {
+  color: #fff;
+  font-size: 1vw;
+  font-family: "Roboto";
+  text-align: center;
+  
+  padding: 10px;
+  position: absolute;
+  top: 25%;
+  left: 22%;
+  transform: translate(-50%,-50%);
+
+}}
+@media only screen and (max-width: 600px) {
+  .start-text {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    margin-left: 50px;
+    transform: translate(-50%,-50%);
+  
+  }
+}
+@media only screen and (max-width: 900px) {
+  .start-text {
+    color: #fff;
+    font-size: 1vw;
+    font-family: "Roboto";
+    text-align: center;
+    
+    padding: 10px;
+    position: absolute;
+    margin-top: 18%;
+    left:32%;
+    transform: translate(-50%,-50%);
+  
+  }
+  .button-list{
+    margin-top:10px
+  }
+  .home-img2 {
+    background-image: url("./assets/img/note.jpg");
+    margin-top: 25px;
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 150px;
+    width: 150px;
+   
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .input{
+    width:'200px'
+  }
+  .grid{
+    margin-right: 20px;
+  }
+ 
+}
+
+@media only screen and (min-width: 1200px) {
+.input{
+  width:550px
+}
+}
+@media only screen and (max-width: 600px) {
+.button-list{
+  margin-top: 20px;
+  margin-left: 10%;
+ }
+ .idea {
+  margin-left:70px;
+  margin-right: 5px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .myid {
+    padding-top: 20px;
+    padding-left: 30%;
+   
+  }
+ 
+}
+.left_navlinks a {
+  color:black;
+  text-decoration: none;
+}
+
+.left_navlinks a:hover,
+.left_navlinks a:active,
+.left_navlinks a.active {
+  color: blue;
+}
+
+.container-span{
+  position: absolute;
+  color:#282c34;
+  top: 25%;
+  font-size: 14px;
+  font-weight: bold;
+  right: 22%;
+  text-align: center;
+  
+}
+@media only screen and (max-width: 600px) {
+  .container-span {
+    position: absolute;
+    color:#282c34;
+    top: 43%;
+    font-size: 12px;
+    font-weight: bold;
+    right: 40%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container-span2 {
+    position: absolute;
+    color:#282c34;
+    top: 53%;
+    font-size: 12px;
+    right: 36%;
+    text-align: center;
+    
+   
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container-span3 {
+    position: absolute;
+    color:#282c34;
+    top: 49.9%;
+    font-size: 12px;
+    font-weight: bold;
+    right: 35%;
+    text-align: center;
+    
+   
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container-span4 {
+    position: absolute;
+    color:#282c34;
+    top: 55.5%;
+    font-size: 12px;
+    font-weight: bold;
+    right: 62%;
+    text-align: center;
+    
+  }}
+
+  @media only screen and (max-width: 600px) {
+    .container-span5 {
+      position: absolute;
+      color:#282c34;
+      top: 57%;
+      font-size: 12px;
+      font-weight: bold;
+      right: 27%;
+      text-align: center;
+      
+     
+    }
+  }
+  
+@media only screen and (max-width: 600px) {
+  .container-span6 {
+    position: absolute;
+    color:#282c34;
+    top: 59%;
+    font-size: 10px;
+    right: 30%;
+    text-align: center;
+    
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container-span7 {
+    position: absolute;
+    color:#282c34;
+    top: 65%;
+    font-size: 12px;
+    font-weight: bold;
+    right: 66%;
+    text-align: center;
+    
+   
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-span8 {
+    position: absolute;
+    color:#282c34;
+    top: 65%;
+    font-size: 10px;
+    right: 21.5%;
+    text-align: center;
+    
+   
+  }
+}
+@media only screen and (min-width: 1200px) {
+.container-span2{
+  position: absolute;
+  color:#282c34;
+  top: 40%;
+  right: 21.5%;
+  text-align: center;
+  font-size: 14px;
+  
+}
+}
+@media only screen and (min-width: 1200px) {
+.container-span3{
+  position: absolute;
+  color:#282c34;
+  font-size: 14px;
+  font-weight: bold;
+  top: 35%;
+  right: 20.6%;
+  text-align: center;
+  
+}
+}
+@media only screen and (min-width: 1200px) {
+.container-span4{
+  position: absolute;
+  color:#282c34;
+  font-size: 14px;
+  font-weight: bold;
+  top: 43%;
+  right: 29.5%;
+  text-align: center;
+  
+}}
+@media only screen and (min-width: 1200px) {
+.container-span5{
+  position: absolute;
+  color:#282c34;
+  font-size: 14px;
+  font-weight: bold;
+  top: 45%;
+  right: 17.5%;
+  text-align: center;
+  
+}}
+@media only screen and (min-width: 1200px) {
+.container-span6{
+  position: absolute;
+  color:#282c34;
+  font-size: 14px;
+  top: 46%;
+  right: 20%;
+  text-align: center;
+  
+}}
+@media only screen and (min-width: 1200px) {
+.container-span7{
+  position: absolute;
+  color:#282c34;
+  font-size: 14px;
+  top: 56%;
+  right: 31%;
+  font-weight: bold;
+  text-align: center;
+  
+}}
+
+@media only screen and (min-width: 1200px) {
+.container-span8{
+  position: absolute;
+  color:#282c34;
+  font-size: 14px;
+  top: 57%;
+  right: 18%;
+  text-align: center;
+  
+}}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+ padding-top: 40px;
+   
+  }
+}
+.report-text{
+  margin-top: 10px;
+  margin-left: 50%;
+}
+
+.start{
+  text-align: start;
+  
+}
+@media only screen and (min-width: 1200px) {
+.avatar{
+  padding-top: 10px;
+  margin-left: 80px;
+}
+}
+@media only screen and (max-width: 900px) {
+  .avatar{
+    margin-left: 87%;
+  }
+  .mob{
+    margin-right: 10px;
+  }
+  .report-card{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .reward{
+    margin-top: 120px;
+    margin-left: 20px;
+
+  }
+  .rew-text{
+    margin-left: 40px;
+  }
+  .id-text{
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+  .arrow-div{
+    margin-top:100px;
+    margin-left: 20px;
+  }
+  .arr-div{
+    margin-left: 20px;
+    padding-top: 60px;
+  }
+  .stick{
+    margin-left: 22%;
+  }
+  .get{
+    margin-left: 1%;
+  }
+  }
+@media only screen and (min-width: 1200px) {
+  .name-section {
+   margin-left: 20px;
+  
+   
+  }
+}
+@media only screen and (max-width: 600px) {
+  .avatar {
+   margin-left:140px;
+   
+  }
+}
+@media only screen and (max-width: 600px) {
+  .product-img {
+   width: 300px;
+   height: 220px;
+   margin-right: 25px;
+   border-radius: 12px 12px 0px 0px;
+   margin-bottom: 10px;
+   
+  }
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 37%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.container{
+max-width: 960px;
+margin-top: 30px;
+
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 960px;
+    margin-top: 200px;
+    
+   
+  }
+}
+@media only screen and (max-width: 600px) {
+  .vertical-center {
+    margin-top: 40px;
+    top:20%;
+    margin-left:20px;
+   
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .container {
+    max-width: 960px;
+    margin-top: 170px;
+    
+   
+  }
+}
+@media only screen and (max-width: 920px) {
+  .vertical-center {
+    top:15%;
+    margin-left:40px;
+   
+  }
+}
+/*
+529x499
+aspect ratio % = 94%
+*/
+.bg-image {
+  width: 100%;
+  padding-top: 94%;
+  background: url("./assets/img/design.png") no-repeat center;
+  background-size: cover;
+  margin-left: 10px;
+
+}
+.inzack{
+  margin-top: 30px;
+  height: 900px;
+}
+@media only screen and (max-width: 600px) {
+  .inzack {
+  height: 100px;
+   
+  }
+}
+.inzack-img{
+  background-image: url("./assets/img/design.png");
+
+}
+  @media only screen and (min-width: 600px) {
+    .product-txt {
+    margin-left: 50px;
+     
+    }
+}
+@media only screen and (min-width: 1200px) {
+  .product-img {
+   max-width: 200px;
+   max-height: 180px;
+   margin-right: 25px;
+   border-radius: 12px 12px 0px 0px;
+   margin-bottom: 10px;
+   
+  }
+}
+@media only screen and (max-width: 992px) {
+  .product-img {
+    width: 220px;
+    max-height: 190px;
+    border-radius: 12px 12px 0px 0px;
+    margin-right: 25px;
+   
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .report-text {
+   margin-left:70px;
+   
+  }
+}
+.report{
+  margin-left: 40px;
+  font-family: "Roboto";
+}
+
+ @media only screen and (max-width: 600px) {
+  .arrow {
+    transform: rotateZ(90deg);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 45%;
+   
+  }
+  .arrow2 {
+    transform: rotateZ(90deg);
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 45%;
+   
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .arrow {
+   margin-left: 60px;
+   
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .arrow-div {
+    margin-top:120px
+   
+   
+  }
+}
+@media only screen and (min-width: 992px) {
+  .arrow-div {
+    margin-top: 110px;
+   
+  }
+}
+
+.wave{
+  background-image: url("./assets/img/blue.PNG");
+}
+.pave{
+  background-image: url("./assets/img/pave.PNG");
+}
+.nave{
+  background-image: url("./assets/img/nave.PNG");
+}
+/*
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#0099ff" fill-opacity="1" d="M0,128L21.8,112C43.6,96,87,64,131,90.7C174.5,117,218,203,262,208C305.5,213,349,139,393,128C436.4,117,480,171,524,181.3C567.3,192,611,160,655,138.7C698.2,117,742,107,785,128C829.1,149,873,203,916,197.3C960,192,1004,128,1047,96C1090.9,64,1135,64,1178,80C1221.8,96,1265,128,1309,122.7C1352.7,117,1396,75,1418,53.3L1440,32L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path>
+</svg>
+*/
